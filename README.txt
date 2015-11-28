@@ -15,12 +15,11 @@ ATTRIBUTIONS
 CONTENTS
 
 	+ data/               [DIR] vowel data and importing tools.
-  |-- vowdata.dat       the Hillenbrand vowel data.
-	+ figures/            [DIR] figures (.png) and scripts to make them.
-	+ src/                [DIR] contains classifier code.
-	|-- svm_classify.py   loads an SVM model and classifies a given parameterized vowel.
-	|-- svm_train.py      trains an SVM model and exports it to a file.
-	|-- data_stream.py    streams data from the vowel dataset.
+	|-- vowdata.dat       the Hillenbrand vowel data.
+	+ figures/            [DIR] figures (.png).
+	+ src/                [DIR] contains classifier code, scripts, and misc. sources.
+	|-- svc.py            trains an SVC model.
+	|-- data.py           vowel data and schema.
 	install.sh            installs python libraries.
 	uninstall.sh          uninstalls python libraries.
 	LICENSE.txt           GNU GPLv2 text.
